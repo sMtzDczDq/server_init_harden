@@ -88,7 +88,7 @@ case "$OS" in
 		# If the versions are not 9, 10, 11
 		# warn user and ask them to proceed with caution
 		DEB_VER_STR=$CODE_NAME
-		if ((VER >= 9 && VER <= 12)); then
+		if ! ((VER >= 9 && VER <= 12)); then
 			new_os_version_warning
 		fi
 		;;
