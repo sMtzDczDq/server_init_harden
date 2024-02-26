@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+#set -x
 SCRIPT_NAME=linux_init_harden
 SCRIPT_VERSION=1.0
 
